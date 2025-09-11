@@ -6,6 +6,11 @@ public class Feeder {
      */
     private int currentFood;
 
+    public int getCurrentFodd()
+    {
+        return currentFood;
+    }
+
     /**
      * Simulates one day with numBirds birds or possibly a bear at the bird
      * feeder, as described in part (a) Precondition: numBirds > 0
